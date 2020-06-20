@@ -1,0 +1,24 @@
+$ django-admin start project (somente 1x)
+$ django-admin startapp tasks
+$ django-admin startapp about
+$ django-admin startapp users
+
+$ python .\manage.py runserver  (localhost:8000/nome_rota
+
+
+* sempre enviar uma função path, dois deles são obrigatorios
+url = caminho usado para atingir uma view
+view = logica da url (o que acontece) fica no arquivo de view
+name = serve para chamar a view em qualquer parte do projeto
+
+*****************************************************************
+uma view sempre tem uma request (argumento da função) recebe a requisição do usuario
+um retorno, sempre retorna algo para devolver ao usuario. é obrigatório ter um retorno (template html)
+
+
+USUARIO CRIADO
+user: admin
+senha: 1998
+
+user: galu
+senha: Galu@123
